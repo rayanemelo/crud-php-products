@@ -1,5 +1,6 @@
 <?php
 require_once '../db.php';
+require_once '../protege.php';
 
 $id = $_GET['id'] ?? null;
 if ($id) {

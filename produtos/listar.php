@@ -1,11 +1,6 @@
 <?php
 require_once '../db.php';
-session_start();
-
-if (!isset($_SESSION['usuario'])) {
-  header("Location: login.php");
-  exit;
-}
+require_once '../protege.php';
 
 ?>
 

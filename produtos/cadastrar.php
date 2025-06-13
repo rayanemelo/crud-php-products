@@ -1,5 +1,6 @@
 <?php
 require_once '../db.php';
+require_once '../protege.php';
 
 $categorias = [];
 $result = mysqli_query($conn, "SELECT * FROM categorias");
